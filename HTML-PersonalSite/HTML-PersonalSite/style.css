@@ -1,0 +1,208 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap');
+
+h1{ 
+    font-size: 60px;
+    font-family: Sacramento , cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2, 5rem;
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+h3 {
+
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+
+.top-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10%;
+    
+    
+    
+}
+
+.centrer-tableau{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+}
+
+
+.centrer{
+    text-align: center; 
+}
+
+
+.monimage{
+    width: 30%;
+}
+
+
+
+body{
+    background-color: rgba(126, 190, 169, 0.384);
+}
+
+hr{
+    width:20% ;
+    border-style: dotted;
+    border-width: 5px 0 0 0;
+}
+
+
+.profile{
+    text-align: center;
+        
+}
+
+.skills{
+    text-align: center;
+}
+
+
+
+.skill-row{
+    width: 50%;
+    align-items: center;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2em;
+    
+    
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin: 30px;
+}
+
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin: 30px;
+}
+
+
+.code-skill-description {
+    clear: right;
+    margin-bottom: 30%;
+}
+
+
+.chilli-skill-description {
+    clear: left;
+    margin-bottom: 30%;
+}
+
+
+.middle-container{
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom:0px;
+}
+
+
+.intro{ 
+    width: 30%;              /* Voir avec prof */
+    text-align: center;
+    margin: auto;
+}                            /* Voir avec prof */
+
+
+
+
+.p{
+    line-height: 2;
+}
+
+
+.contact-message{
+    /* Voir avec prof */
+    text-align: center;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 5px;
+    -webkit-box-shadow: 0 0 0 0 #000000;
+    -moz-box-shadow: 0 0 0 0 #000000;
+    box-shadow: 0 0 0 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap');
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.bottom-container {
+    color: #66BFBF;
+}
